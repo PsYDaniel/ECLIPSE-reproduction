@@ -1,0 +1,20 @@
+# Datasets & model weights (too large for git — downloaded at runtime)
+datasets/
+checkpoints/
+*.pth
+*.zip
+*.tar
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
