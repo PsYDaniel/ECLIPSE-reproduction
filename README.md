@@ -6,7 +6,7 @@
 **Author:** Daniel Chicherin, Or Blazer  ·  **Course:** Python  ·  **Instructor:** Andrey Dolgin  ·  **Date:** May 2026
 
 **Project website:** [`https://PsYDaniel.github.io/ECLIPSE-reproduction/`](https://PsYDaniel.github.io/ECLIPSE-reproduction/)
-**Project video (≤ 3 min):** [▶️ Watch on YouTube](VIDEO_LINK_HERE)
+
 
 ---
 
