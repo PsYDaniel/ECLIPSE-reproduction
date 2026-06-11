@@ -1,5 +1,13 @@
 # Codex ECLIPSE Backbone change attempt
 
+> **Note.** This is a preserved AI-conversation log from the exploratory phase. Some notebooks it
+> mentions were early drafts that are not part of the final submission (e.g.
+> `ECLIPSE_Reproduction_Finally_Worked.ipynb`, superseded by
+> [`../notebook/PythonEclipseImprovement.ipynb`](../notebook/PythonEclipseImprovement.ipynb)).
+> The Swin-T notebook it describes **is** included:
+> [`../notebook/ECLIPSE_Stronger_Backbone_SwinT_No_TTA_Colab.ipynb`](../notebook/ECLIPSE_Stronger_Backbone_SwinT_No_TTA_Colab.ipynb);
+> its measured outcome and the decision to abandon the attempt are documented in
+> [`swin-t-retraining-attempt.md`](swin-t-retraining-attempt.md).
 
 ## Conversation
 
