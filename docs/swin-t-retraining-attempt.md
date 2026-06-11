@@ -7,8 +7,16 @@
 > preserved in [`../results/logs/`](../results/logs/). Negative results are reported here in full
 > because they shaped the project and because they independently support the paper's premise (see
 > "What this taught us" at the end).
-**Important Note**
-- The included SWIN T attempt in notebook is using 75,000 iterations, we did not backup that version, only logs.
+
+> **Code:** the full Swin-T pipeline (Torch/CUDA pinning, Detectron2 source build, Swin config +
+> script generation, Drive checkpoint backup/restore, log-parsed comparison graph) is in
+> [`../notebook/ECLIPSE_Stronger_Backbone_SwinT_No_TTA_Colab.ipynb`](../notebook/ECLIPSE_Stronger_Backbone_SwinT_No_TTA_Colab.ipynb).
+
+> **Important note on provenance:** the committed notebook is a later revision defaulting to a
+> **75,000-iteration** base schedule. We have no saved outputs from that revision. All logs in
+> [`../results/logs/`](../results/logs/) — and every number in this report — come from the earlier
+> **32,000-iteration** run, whose notebook version was not backed up.
+
 ## Summary
 
 We attempted to improve the ECLIPSE ADE20K-Panoptic continual segmentation reproduction by replacing the original ResNet-50 backbone with Swin-T, while keeping evaluation single-scale and without test-time augmentation.
