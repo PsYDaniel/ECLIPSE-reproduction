@@ -7,7 +7,8 @@
 > preserved in [`../results/logs/`](../results/logs/). Negative results are reported here in full
 > because they shaped the project and because they independently support the paper's premise (see
 > "What this taught us" at the end).
-
+**Important Note**
+- The included SWIN T attempt in notebook is using 75,000 iterations, we did not backup that version, only logs.
 ## Summary
 
 We attempted to improve the ECLIPSE ADE20K-Panoptic continual segmentation reproduction by replacing the original ResNet-50 backbone with Swin-T, while keeping evaluation single-scale and without test-time augmentation.
